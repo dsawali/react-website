@@ -1,0 +1,8 @@
+.projects {
+    text-align: center;
+    height: 80vh;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin: 5% 5%;
+}

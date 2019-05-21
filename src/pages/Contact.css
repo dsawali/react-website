@@ -1,0 +1,8 @@
+.contact {
+    text-align: center;
+    height: 60vh;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin: 5% 5%;
+}
