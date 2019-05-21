@@ -12,7 +12,7 @@ class Contact extends Component {
         return(
             <div className="container section contact">
                 <h1>Contact</h1>
-                
+                <hr className="hr-contact"/>
             </div>
         );
     }

@@ -1,8 +1,17 @@
 .about-me {
-    text-align: center;
-    height: 60vh;
-    background-image: linear-gradient(to bottom right, #508ae5, #003384);
-    border: 1px solid black;
+    text-align: left;
+    height: 50vh;
     border-radius: 60px;
     margin: 5% 5%;
+}
+
+.hr-about-me {
+    height: 4px;
+    background-color: #508ae5;
+    border: none;
+    border-radius: 40px;
+}
+
+.intro-text {
+    color: #fff;
 }

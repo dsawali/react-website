@@ -11,8 +11,8 @@ class Projects extends Component {
     render() {
         return(
             <div className="container section projects">
-                <h1>.projects</h1>
-                
+                <h1>Projects</h1>
+                <hr className="hr-projects"/>
             </div>
         );
     }

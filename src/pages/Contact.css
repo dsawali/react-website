@@ -1,8 +1,12 @@
 .contact {
-    text-align: center;
+    text-align: left;
     height: 60vh;
-    background-color: green;
-    border: 1px solid black;
-    border-radius: 60px;
     margin: 5% 5%;
+}
+
+.hr-contact {
+    height: 4px;
+    background-color: #77dd77;
+    border: none;
+    border-radius: 40px;
 }
