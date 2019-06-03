@@ -1,12 +1,17 @@
-.projects {
-    text-align: left;
+.experience {
+    text-align: center;
     height: 80vh;
     margin: 5% 5%;
 }
 
-.hr-projects {
+.hr-experience {
     height: 4px;
     background-color: #ff6961;
     border: none;
     border-radius: 40px;
+    width: 100px;
+}
+
+.experience-wrapper {
+    
 }

@@ -13,18 +13,26 @@ const frontend = {
 }
 
 const backend = {
-    category: '',
+    category: 'Back-end',
     entry: [
-        ''
+        'Python',
+        'ASP .NET',
+        'Java',
+        'NodeJS'
     ]
 }
 
 const others = {
-    category: '',
+    category: 'Others',
     entry: [
-        ''
+        'PySpark',
+        'Scikit-learn',
+        'Docker',
+        'Selenium',
+        'MongoDB'
     ]
 }
+
 
 class Skills extends Component {
     constructor(props) {
@@ -38,9 +46,17 @@ class Skills extends Component {
             <div className="container section skills">
                 <h1>Skills</h1>
                 <hr className="hr-skills"/>
-                <SkillEntry category={frontend.category} entry={frontend.entry}/>
-                {/* <SkillEntry category={'Back end'} entry={['React', 'JS']}/>
-                <SkillEntry category={'Others'} entry={['React', 'JS']}/> */}
+                <div className="content-wrapper">
+                    <div className="content-skills">
+                        <SkillEntry category={frontend.category} entry={frontend.entry}/>
+                    </div>
+                    <div className="content-skills">
+                        <SkillEntry category={backend.category} entry={backend.entry}/>
+                    </div>
+                    <div className="content-skills">
+                        <SkillEntry category={others.category} entry={others.entry}/>
+                    </div>
+                </div>
             </div>
         );
     }

@@ -1,0 +1,16 @@
+.navigation {
+
+}
+
+.navigation > ul {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.navigation ul > li {
+    display: inline;
+    margin: 0 30px;
+    
+
+}

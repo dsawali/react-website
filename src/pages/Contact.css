@@ -1,6 +1,6 @@
 .contact {
-    text-align: left;
-    height: 60vh;
+    text-align: center;
+    height: 70vh;
     margin: 5% 5%;
 }
 
@@ -9,4 +9,5 @@
     background-color: #77dd77;
     border: none;
     border-radius: 40px;
+    width: 100px;
 }

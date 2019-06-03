@@ -1,6 +1,6 @@
 .skills {
-    text-align: left;
-    height: 50vh;
+    text-align: center;
+    height: 100vh;
     margin: 5% 5%;
 }
 
@@ -9,4 +9,17 @@
     background-color: #fbde98;
     border: none;
     border-radius: 40px;
+    width: 100px;
+}
+
+.content-skills {
+    width: 55%;
+    margin-top: 30px;
+    text-align: left;
+    display: inline-block;
+}
+
+.content-wrapper {
+    margin-top: 40px;
+    text-align: center;
 }
