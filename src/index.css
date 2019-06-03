@@ -16,3 +16,7 @@ p {
 body {
     background-color: #fff;
 }
+
+.section {
+    border: solid 1px red;
+}

@@ -1,5 +1,6 @@
 import React, { Component }from 'react';
 import './Experience.css';
+import ExperienceEntry from '../components/ExperienceEntry';
 
 const exp = [
     {
@@ -19,6 +20,8 @@ const exp = [
     }
 ]
 
+// NEED TO FIX IMPLEMENTATION TO PASS OBJECT INSTEAD
+
 class Experience extends Component {
     constructor(props) {
         super(props);
@@ -33,7 +36,7 @@ class Experience extends Component {
                 <hr className="hr-experience"/>
                 <div className="experience-wrapper">
                     <div className="experience-title">
-                        {exp.map}
+                       <ExperienceEntry expData={exp} />
                     </div>
                 </div>
             </div>
