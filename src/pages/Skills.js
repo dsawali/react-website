@@ -1,6 +1,7 @@
 import React, { Component }from 'react';
 import './Skills.css';
 import SkillEntry from '../components/SkillEntry';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const frontend = {
     category: 'Front-end',
@@ -43,21 +44,27 @@ class Skills extends Component {
     }
     render() {
         return(
-            <div className="container section skills">
-                <h1>Skills</h1>
-                <hr className="hr-skills"/>
-                <div className="content-wrapper">
-                    <div className="content-skills">
-                        <SkillEntry category={frontend.category} entry={frontend.entry}/>
-                    </div>
-                    <div className="content-skills">
-                        <SkillEntry category={backend.category} entry={backend.entry}/>
-                    </div>
-                    <div className="content-skills">
-                        <SkillEntry category={others.category} entry={others.entry}/>
+            <ScrollAnimation 
+                animateIn="fadeIn" 
+                animateOnce="true" 
+                duration="0.5"
+            >
+                <div className="container section skills">
+                    <h1>Skills</h1>
+                    <hr className="hr-skills"/>
+                    <div className="content-wrapper">
+                        <div className="content-skills">
+                            <SkillEntry category={frontend.category} entry={frontend.entry}/>
+                        </div>
+                        <div className="content-skills">
+                            <SkillEntry category={backend.category} entry={backend.entry}/>
+                        </div>
+                        <div className="content-skills">
+                            <SkillEntry category={others.category} entry={others.entry}/>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </ScrollAnimation>
         );
     }
 }

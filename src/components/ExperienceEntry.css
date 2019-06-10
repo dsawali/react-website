@@ -1,3 +1,14 @@
-#exp-title {
-    float: left;
+.experience-title {
+   width: 400px;
+   float: left;
+}
+
+.experience-entry-wrapper {
+    float: right;
+}
+
+.content-experience {
+    margin-top: 30px;
+    color: #000;
+    font-size: 1rem;
 }

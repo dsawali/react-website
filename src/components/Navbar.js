@@ -13,10 +13,18 @@ class Navbar extends Component {
         return(
             <div className="navigation">
                 <ul>
-                    <li><a href="#">About me</a> /</li>
-                    <li><a href="#">Skills</a> /</li>
-                    <li><a href="#">Projects</a> /</li>
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <a href="#">About me</a>
+                    </li>
+                    <li>
+                        <a href="#">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
                 
             </div>

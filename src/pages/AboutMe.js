@@ -1,4 +1,5 @@
 import React, { Component }from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import './AboutMe.css';
 
 class AboutMe extends Component {
@@ -10,6 +11,11 @@ class AboutMe extends Component {
     }
     render() {
         return(
+            <ScrollAnimation 
+                animateIn="fadeIn" 
+                animateOnce="true" 
+                duration="0.5"
+            >
             <div className="container section about-me">
                 <h1>About me</h1>
                
@@ -24,6 +30,7 @@ class AboutMe extends Component {
                 </p>
                 </div>
             </div>
+            </ScrollAnimation>
         );
     }
 }

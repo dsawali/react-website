@@ -1,6 +1,7 @@
 .experience {
     text-align: center;
-    height: 80vh;
+    height: 65vh;
+    min-height: 500px;
 }
 
 .hr-experience {
@@ -11,6 +12,14 @@
     width: 100px;
 }
 
+.content-experience {
+    width: 55%;
+    margin-top: 30px;
+    text-align: left;
+    display: inline-block;
+}
+
 .experience-wrapper {
-    
+    margin-top: 40px;
+    text-align: center;
 }

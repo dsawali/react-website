@@ -1,5 +1,5 @@
 .navigation {
-
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navigation > ul {
@@ -11,6 +11,9 @@
 .navigation ul > li {
     display: inline;
     margin: 0 30px;
-    
+}
 
+.navigation ul > li > a {
+    text-decoration: none;
+    font-weight: bold;
 }

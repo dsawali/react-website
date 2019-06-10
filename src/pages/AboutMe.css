@@ -1,6 +1,7 @@
 .about-me {
     text-align: center;
     height: 50vh;
+    min-height: 235px;
 }
 
 .hr-about-me {
@@ -13,9 +14,11 @@
 
 .intro-text {
     color: #000;
+    margin-top: 40px;
 }
 
 .content-aboutme{
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 55%;
+    
 }

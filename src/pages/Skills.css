@@ -1,6 +1,7 @@
 .skills {
     text-align: center;
     height: 50vh;
+    min-height: 360px;
 }
 
 .hr-skills {

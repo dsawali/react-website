@@ -1,5 +1,6 @@
 import React, { Component }from 'react';
 import './Contact.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Contact extends Component {
     constructor(props) {
@@ -10,10 +11,16 @@ class Contact extends Component {
     }
     render() {
         return(
-            <div className="container section contact">
-                <h1>Contact</h1>
-                <hr className="hr-contact"/>
-            </div>
+            <ScrollAnimation 
+                animateIn="fadeIn" 
+                animateOnce="true" 
+                duration="0.5"
+            >
+                <div className="container section contact">
+                    <h1>Contact</h1>
+                    <hr className="hr-contact"/>
+                </div>
+            </ScrollAnimation>
         );
     }
 }
