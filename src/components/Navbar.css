@@ -1,11 +1,17 @@
 .navigation {
     font-family: 'Ubuntu', sans-serif;
+    border-bottom: solid 1px #d8d8d8;
+    z-index: 10;
+    background-color: #fff;
+    
 }
 
 .navigation > ul {
     list-style-type: none;
     text-align: center;
     padding-inline-start: 0;
+    margin-top: 0;
+    padding-top: 16px;
 }
 
 .navigation ul > li {
@@ -16,4 +22,14 @@
 .navigation ul > li > a {
     text-decoration: none;
     font-weight: bold;
+}
+
+.navigation ul > li > a:visited {
+    color: #000;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }

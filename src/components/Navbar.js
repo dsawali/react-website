@@ -11,7 +11,7 @@ class Navbar extends Component {
     }
     render() {
         return(
-            <div className="navigation">
+            <div className="navigation sticky">
                 <ul>
                     <li>
                         <a href="#">About me</a>

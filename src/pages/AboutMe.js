@@ -23,10 +23,9 @@ class AboutMe extends Component {
                 
                 <div className="content-aboutme">
                 <p className="intro-text">
-                    Hi there. I'm a fourth-year Computer Science student in Simon Fraser University. 
-                    I was born in Jakarta, Indonesia. I love technology and all things computer. 
-                    I have a passion for Software Engineering and Data Science .
-                    Always open to new connections and projects!
+                    Hi there! I'm a recently graduated undergrad from Simon Fraser University.
+                    I majored in Computer Science and am looking for new opportunities. 
+                    My experiences and interests consist of Full-stack development and Data Science. Always open to new projects!
                 </p>
                 </div>
             </div>

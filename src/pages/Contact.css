@@ -10,3 +10,28 @@
     border-radius: 40px;
     width: 100px;
 }
+
+
+.contact-entry-wrapper {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    width: 55%;
+}
+
+.contact-entry {
+    display: block;
+    margin-top: 30px;
+}
+
+.contact-entry > span > a {
+    color: #000;
+    transition: 0.3s;
+}
+
+
+
+.contact-entry > span > a:hover {
+    background-color: #000;
+    color: #fff;
+}
