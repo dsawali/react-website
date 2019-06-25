@@ -16,7 +16,7 @@ class AboutMe extends Component {
                 animateOnce="true" 
                 duration="0.5"
             >
-            <div className="container section about-me">
+            <div id="about-me" className="container section about-me">
                 <h1>About me</h1>
                
                 <hr className="hr-about-me"/>

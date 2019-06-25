@@ -1,5 +1,6 @@
 import React, { Component }from 'react';
 import './Navbar.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 class Navbar extends Component {
@@ -14,16 +15,16 @@ class Navbar extends Component {
             <div className="navigation sticky">
                 <ul>
                     <li>
-                        <a href="#">About me</a>
+                        <AnchorLink href="#about-me" offset="51" className="nav-link">About me</AnchorLink>
                     </li>
                     <li>
-                        <a href="#">Skills</a>
+                        <AnchorLink href="#skills" offset="51" className="nav-link">Skills</AnchorLink>
                     </li>
                     <li>
-                        <a href="#">Projects</a>
+                        <AnchorLink href="#experience" offset="51" className="nav-link">Experience</AnchorLink>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <AnchorLink href="#contact" offset="51" className="nav-link">Contact</AnchorLink>
                     </li>
                 </ul>
                 

@@ -3,6 +3,10 @@
     height: 70vh;
 }
 
+.contact > h1 {
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+}
+
 .hr-contact {
     height: 4px;
     background-color: #77dd77;

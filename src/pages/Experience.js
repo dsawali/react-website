@@ -35,7 +35,7 @@ class Experience extends Component {
                 animateOnce="true" 
                 duration="0.5"
             >   
-                <div className="container section experience">
+                <div className="container section experience" id="experience">
                     <h1>Experience</h1>
                     <hr className="hr-experience"/>
                     <div className="experience-wrapper">

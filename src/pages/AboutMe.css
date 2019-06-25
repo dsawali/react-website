@@ -4,6 +4,10 @@
     min-height: 235px;
 }
 
+.about-me > h1 {
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+}
+
 .hr-about-me {
     height: 4px;
     background-color: #508ae5;
@@ -16,9 +20,10 @@
     color: #000;
     margin-top: 40px;
     font-size: 18px;
+    z-index: 10;
 }
 
-.content-aboutme{
+.content-aboutme {
     margin: 0 auto;
     max-width: 55%;
     

@@ -16,7 +16,7 @@ class Contact extends Component {
                 animateOnce="true" 
                 duration="0.5"
             >
-                <div className="container section contact">
+                <div className="container section contact" id="contact">
                     <h1>Contact</h1>
                     <hr className="hr-contact"/>
                     <div className="contact-entry-wrapper">

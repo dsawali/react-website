@@ -4,6 +4,10 @@
     min-height: 360px;
 }
 
+.skills > h1 {
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+}
+
 .hr-skills {
     height: 4px;
     background-color: #fbde98;

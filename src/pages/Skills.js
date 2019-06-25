@@ -49,7 +49,7 @@ class Skills extends Component {
                 animateOnce="true" 
                 duration="0.5"
             >
-                <div className="container section skills">
+                <div className="container section skills" id="skills">
                     <h1>Skills</h1>
                     <hr className="hr-skills"/>
                     <div className="content-wrapper">

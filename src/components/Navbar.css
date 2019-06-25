@@ -3,7 +3,6 @@
     border-bottom: solid 1px #d8d8d8;
     z-index: 10;
     background-color: #fff;
-    
 }
 
 .navigation > ul {
@@ -19,12 +18,13 @@
     margin: 0 30px;
 }
 
-.navigation ul > li > a {
+.nav-link {
     text-decoration: none;
     font-weight: bold;
+    color: #000;
 }
 
-.navigation ul > li > a:visited {
+.navigation ul > li > nav-link:visited {
     color: #000;
 }
 
