@@ -12,7 +12,7 @@
     "react-scripts": "^3.0.1",
     "react-scrollable-anchor": "^0.6.1"
   },
-  "homepage": "https://dsawali.github.io/react-website",
+  "homepage": "https://dsawali.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
