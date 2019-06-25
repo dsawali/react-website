@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.6.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-animate-on-scroll": "^2.1.5",
@@ -11,11 +12,14 @@
     "react-scripts": "^3.0.1",
     "react-scrollable-anchor": "^0.6.1"
   },
+  "homepage": "https://dsawali.github.io/react-website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
