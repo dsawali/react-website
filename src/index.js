@@ -7,13 +7,16 @@ import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 
+import ReactGA from 'react-ga';
 
 import './index.css';
 
+const trackingId = 'UA-143520407-1';
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
   render() {
-    const textlist = [{text: "HTML"}, {text: "JavaScript"}, {text: "React"}];
     return (
       <div className="App">
         <Navbar />
