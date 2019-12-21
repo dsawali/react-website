@@ -10,7 +10,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.6.1",
     "react-ga": "^2.6.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^3.3.0",
     "react-scrollable-anchor": "^0.6.1"
   },
   "homepage": "https://dsawali.com",

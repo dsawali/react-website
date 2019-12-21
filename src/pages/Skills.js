@@ -9,7 +9,8 @@ const frontend = {
         'JavaScript ES6',
         'React',
         'Babel',
-        'HTML5/CSS'
+        'SASS',
+        'ESlint'
     ]
 }
 
@@ -17,6 +18,7 @@ const backend = {
     category: 'Back-end',
     entry: [
         'Python',
+        'Go',
         'ASP .NET',
         'Java',
         'NodeJS'
@@ -26,10 +28,11 @@ const backend = {
 const others = {
     category: 'Others',
     entry: [
-        'PySpark',
-        'Scikit-learn',
+        'Docker',
+        'Bamboo (CI/CD)',
         'Docker',
         'Selenium',
+        'Protractor',
         'MongoDB'
     ]
 }

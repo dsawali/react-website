@@ -5,6 +5,11 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const exp = [
     {
+        title: 'QA Engineer',
+        company: 'Vipre Security',
+        date: 'Sep 2019 - Present'
+    },
+    {
         title: 'Software Developer Co-op',
         company: 'BCAA',
         date: 'Sep 2018 - Apr 2019'
