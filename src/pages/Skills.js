@@ -17,11 +17,13 @@ const frontend = {
 const backend = {
     category: 'Back-end',
     entry: [
+        'NodeJS',
+        'GraphQL',
+        'TypeScript',
         'Python',
         'Go',
         'ASP .NET',
-        'Java',
-        'NodeJS'
+        'Java'
     ]
 }
 
@@ -29,11 +31,11 @@ const others = {
     category: 'Others',
     entry: [
         'Docker',
-        'Bamboo (CI/CD)',
+        'MongoDB',
+        'Jenkins',
         'Docker',
         'Selenium',
-        'Protractor',
-        'MongoDB'
+        'Jest'
     ]
 }
 
