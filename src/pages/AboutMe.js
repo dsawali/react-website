@@ -23,9 +23,8 @@ class AboutMe extends Component {
                 
                 <div className="content-aboutme">
                 <p className="intro-text">
-                    Hi there! I'm a recently graduated undergrad from Simon Fraser University.
-                    I majored in Computer Science and am looking for new opportunities. 
-                    My experiences and interests consist of Full-stack development and Data Science. Always open to new projects!
+                    I'm a Software Engineer currently based in Vancouver, BC, Canada. I'm experienced in web development and automation testing,
+                    mainly in JS and TS. Always open to new projects. 
                 </p>
                 </div>
             </div>
